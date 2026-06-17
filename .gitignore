@@ -2,15 +2,10 @@
 dataset_raw_video/*
 !dataset_raw_video/.gitkeep
 
-# Python caches and virtual environments
-venv/
+# Ignore venv contents but keep the folder
+venv/*
+!venv/.gitkeep
+
+# Python caches
 __pycache__/
 *.pyc
-
-# Project generated data and models
-dataset_numpy/
-dataset_siap_train/
-saved_models/
-results/
-results1/
-screenshots/

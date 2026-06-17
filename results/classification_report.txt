@@ -1,0 +1,8 @@
+              precision    recall  f1-score   support
+
+       Squat     1.0000    0.9245    0.9608        53
+       Lunge     0.9365    1.0000    0.9672        59
+
+    accuracy                         0.9643       112
+   macro avg     0.9683    0.9623    0.9640       112
+weighted avg     0.9666    0.9643    0.9642       112
