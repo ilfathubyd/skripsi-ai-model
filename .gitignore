@@ -1,0 +1,16 @@
+# Ignore dataset raw video contents
+dataset_raw_video/*
+!dataset_raw_video/.gitkeep
+
+# Python caches and virtual environments
+venv/
+__pycache__/
+*.pyc
+
+# Project generated data and models
+dataset_numpy/
+dataset_siap_train/
+saved_models/
+results/
+results1/
+screenshots/
